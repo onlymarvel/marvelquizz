@@ -22,7 +22,7 @@ html {
 }
 
 .inner-div {
-  width: 40vw;
+  /* width: 6 `0vw; */
   background-color: rgb(234, 240, 243);
   padding: 3rem 8rem;
   border-radius: 1rem;
@@ -33,6 +33,13 @@ html {
   font-size: 3.5rem;
   font-weight: 400;
   margin: 1rem 0 4rem 0;
+}
+
+.caption{
+  font-size: 4rem;
+  font-weight: 600;
+ // margin: 1rem 0 4rem 0;
+  background-color: rgb(131, 187, 209);
 }
 
 .inner-div li {
