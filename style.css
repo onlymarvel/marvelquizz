@@ -22,7 +22,7 @@ html {
 }
 
 .inner-div {
-  /* width: 6 `0vw; */
+   width: 60vw;
   background-color: rgb(234, 240, 243);
   padding: 3rem 8rem;
   border-radius: 1rem;
