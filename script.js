@@ -61,7 +61,7 @@ const  quizDB = [
         b: "for ( int i = 7; i <= 77; i += 7 )",
         c: "for ( int i = 20; i >= 2; - -i ",
         d: "for ( int i = 2; i <= 20; i = 2* i )",
-        ans: "ans1"
+        ans: "ans3"
     },
     {
         question: "Q9: Which of the following is true about the anonymous inner class?",
@@ -155,5 +155,40 @@ submit.addEventListener('click', () => {
         showScore.classList.remove('scoreArea');
     }
 });
+
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var fiveMinutes = 60 * 5,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+};
+
+
+
+
+
+
+
+
+
+
+
 
 

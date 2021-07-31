@@ -26,7 +26,7 @@ html {
   background-color: rgb(234, 240, 243);
   padding: 3rem 8rem;
   border-radius: 1rem;
-  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.9);
 }
 
 .inner-div h2 {
@@ -37,9 +37,15 @@ html {
 
 .caption{
   font-size: 4rem;
-  font-weight: 600;
- // margin: 1rem 0 4rem 0;
+  font-weight: 400;
+ // margin: 1rem 0 1rem 0;
   background-color: rgb(131, 187, 209);
+  font
+  
+}
+.caption h2 {
+  text-align: center;
+  //padding: 3rem 0rem;
 }
 
 .inner-div li {
@@ -61,12 +67,12 @@ input {
     margin: auto ;
     border: none;text-transform: uppercase;
     color: #fcf6f6;
-    background-color: rgb(62, 122, 156);
+    background-color: rgb(17, 129, 194);
     margin-top: .5rem;
 }
 
 #submit:hover {
-  background-color: #0984e3;
+  background-color: #131414;
   cursor: pointer;
 }
 
@@ -96,3 +102,21 @@ input {
   background-color: #2a584f;
   color: #fff;
 }
+
+
+
+
+.timer{
+
+  font-size: 2rem;
+  font-weight: 200;
+ // margin: 1rem 0 1rem 0;
+  background-color: rgb(131, 187, 209);
+  font
+  
+
+}
+
+
+
+
