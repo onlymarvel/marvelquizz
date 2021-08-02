@@ -6,6 +6,7 @@
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
    font-weight: 600;
+   
 }
 
 html {
@@ -107,14 +108,12 @@ input {
 
 
 .timer{
-
-  font-size: 2rem;
-  font-weight: 200;
- // margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem ;
   background-color: rgb(131, 187, 209);
-  font
-  
-
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 
